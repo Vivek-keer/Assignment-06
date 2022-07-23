@@ -12,7 +12,7 @@ int main()
        if(x%n) {n=2*m+1; }
        else {printf("Given number is not prime"); m=1; break;}
    }
-    if(m==4) printf("Given number is prime");
+    if(m==4||m==5) printf("Given number is prime");
    return 0;
 }
 
